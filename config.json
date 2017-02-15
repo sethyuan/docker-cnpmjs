@@ -1,0 +1,8 @@
+{
+  "debug": false,
+  "admins": {
+    "admin": "wei.yuan@feitian-tech.com"
+  },
+  "scopes": ["@feitian"],
+  "bindingHost": ""
+}
