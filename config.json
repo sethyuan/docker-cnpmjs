@@ -1,8 +1,16 @@
 {
   "debug": false,
+  "bindingHost": "",
+  "registryHost": "192.168.36.190:7001",
+  "enableCluster": true,
+  "sourceNpmRegistry": "https://registry.npm.taobao.org",
+  "sourceNpmRegistryIsCNpm": true,
   "admins": {
-    "admin": "wei.yuan@feitian-tech.com"
+    "admin": "admin@example.com"
   },
-  "scopes": ["@feitian"],
-  "bindingHost": ""
+  "enablePrivate": false,
+  "scopes": [
+    "@mycompany"
+  ],
+  "forcePublishWithScope": true
 }
